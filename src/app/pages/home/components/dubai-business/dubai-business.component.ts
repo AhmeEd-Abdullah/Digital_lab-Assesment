@@ -34,17 +34,6 @@ export class DubaiBusinessComponent {
       duration: 2,
     });
 
-    gsap.from('.extra-content', {
-      scrollTrigger: {
-        trigger: this.extraContent.nativeElement,
-        start: 'top 80%',
-        toggleActions: 'play none play none',
-      },
-      y: 50,
-      stagger: 0.3,
-      duration: 2,
-    });
-
     if (this.displayGallery) {
       gsap.from(
         '.top-1, .top-2, .second-1, .second-2, .third-1, .third-2, .last-1, .last-2',
