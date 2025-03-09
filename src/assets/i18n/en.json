@@ -1,0 +1,50 @@
+{
+  "LOGIN": "Login",
+  "HEADER": {
+    "NAV": {
+      "HOME": "home",
+      "DUBAI_FREEZONES": "dubai freezones",
+      "ABOUT_US": "about us",
+      "MEDIA_CENTER": "media center",
+      "CONTACT_US": "contact us"
+    },
+    "ACTIONS": {
+      "GET_STARTED": "get started",
+      "LANGUAGE": {
+        "EN": "En",
+        "AR": "Ar"
+      }
+    }
+  },
+  "DUBAI_BUSINESS": {
+    "SETUP_BUSINESS_IN": "Setup your business in",
+    "DUBAI": "DUBAI",
+    "FREEZONE_CHOICE": "With the Freezone of your choice",
+
+    "MAIN_BG_ALT": "Main Background",
+    "MAIN_LAYER_ALT": "Main Layer",
+    "DUBAI_IMAGE_ALT": "Dubai Image",
+    "SPECIAL_ICON_ALT": "Special Icon",
+    "DUBAI_IMAGE2_ALT": "Dubai Image 2",
+    "ON_OFF_ICON_ALT": "On-Off Icon",
+    "MOB_BG1_ALT": "Background Image",
+    "DUBAI_SMALL_IMAGE_ALT": "Dubai Small Image",
+    "MOB_BG2_ALT": "Background Image"
+  },
+  "WHY_DUBAI": {
+    "TITLE": "Why Dubai?",
+    "TOP_5_ADVANTAGES": "Top 5 Advantages",
+    "FREEZONES": "26 Freezones",
+    "ANNUAL_BUDGET": "$18.4B",
+    "ANNUAL_BUDGET_LABEL": "annual budget",
+    "GDP": "3.56%",
+    "GDP_LABEL": "GDP",
+    "DISCOVER": "Discover",
+    "ADVANTAGES": {
+      "STABLE_ECONOMY": "Stable and secure economy",
+      "INNOVATIVE_ADVANCEMENTS": "Innovative advancements",
+      "HOME_OF_STARTUPS": "Home of startups",
+      "STRATEGIC_LOCATION": "Strategic location"
+    }
+  }
+}

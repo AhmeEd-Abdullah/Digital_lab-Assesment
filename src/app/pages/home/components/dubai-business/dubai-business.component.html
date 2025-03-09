@@ -1,0 +1,85 @@
+<main class="overflow-hidden position-relative">
+    <!-- Background images unchanged -->
+    <img src="../../../../../assets/images/section1-full-bg.svg" alt="{{ 'DUBAI_BUSINESS.MAIN_BG_ALT' | translate }}"
+        class="bg-image-1 d-none d-lg-inline position-absolute">
+
+    @if (!displayGallery) {
+    <!-- Background images based-on condition -->
+    <img src="../../../../../assets/images/map2-img.svg" alt="{{ 'DUBAI_BUSINESS.MAIN_LAYER_ALT' | translate }}"
+        class="bg-image-2 position-absolute">
+    <img src="../../../../../assets/images/main-layer.svg" alt="{{ 'DUBAI_BUSINESS.MAIN_LAYER_ALT' | translate }}"
+        class="bg-image-3 position-absolute">
+    }
+
+    <div class="container-fluid d-flex justify-content-center">
+        <section class="main-content w-100">
+            <article class="top-part position-relative">
+                <div class="imgs-container d-none d-lg-block mx-auto position-relative">
+                    <div class="bg-container overflow-hidden">
+                        <img src="../../../../../assets/images/section1-bg1.svg"
+                            alt="{{ 'DUBAI_BUSINESS.DUBAI_IMAGE_ALT' | translate }}" class="img-fluid opacity-50">
+                    </div>
+
+                    @if (displayGallery) {
+                    <!-- Surrounding images based-on condition -->
+                    <ng-container>
+                        <img src="../../../../../assets/images/surrounding-img-top-1.png" alt="Image From Gallery"
+                            class="top-1 gallery-img position-absolute">
+                        <img src="../../../../../assets/images/surrounding-img-top-2.png" alt="Image From Gallery"
+                            class="top-2 gallery-img position-absolute">
+
+                        <img src="../../../../../assets/images/surrounding-img-second-1.png" alt="Image From Gallery"
+                            class="second-1 gallery-img position-absolute">
+                        <img src="../../../../../assets/images/surrounding-img-second-2.png" alt="Image From Gallery"
+                            class="second-2 gallery-img position-absolute">
+
+                        <img src="../../../../../assets/images/surrounding-img-third-1.png" alt="Image From Gallery"
+                            class="third-1 gallery-img position-absolute">
+                        <img src="../../../../../assets/images/surrounding-img-third-2.png" alt="Image From Gallery"
+                            class="third-2 gallery-img position-absolute">
+                        <img src="../../../../../assets/images/surrounding-img-last-1.png" alt="Image From Gallery"
+                            class="last-1 position-absolute">
+                        <img src="../../../../../assets/images/surrounding-img-last-2.png" alt="Image From Gallery"
+                            class="last-2 gallery-img position-absolute">
+                    </ng-container>
+                    }
+
+                </div>
+                <header #animatedHeader class="start-0 w-100 text-center animated-header">
+                    <span>{{ 'DUBAI_BUSINESS.SETUP_BUSINESS_IN' | translate }}</span>
+                    <h1 class="m-0">{{ 'DUBAI_BUSINESS.DUBAI' | translate }}</h1>
+                </header>
+            </article>
+
+            <article class="bottom-part">
+                <div class="content mx-auto position-relative">
+                    <img src="../../../../../assets/images/section1-special-icon.svg"
+                        alt="{{ 'DUBAI_BUSINESS.SPECIAL_ICON_ALT' | translate }}"
+                        class="special-icon position-absolute z-1 d-none d-lg-block">
+
+                    <div class="img-container d-none d-lg-block text-center">
+                        <img src="../../../../../assets/images/section1-bg2.svg"
+                            alt="{{ 'DUBAI_BUSINESS.DUBAI_IMAGE2_ALT' | translate }}" class="img-fluid">
+                    </div>
+                    <div #extraContent class="extra-content top-0 start-0 w-100 text-center">
+                        <h3 class="m-0">{{ 'DUBAI_BUSINESS.FREEZONE_CHOICE' | translate }}</h3>
+                        <div class="btn-wraper d-none d-lg-block">
+                            <app-global-btn [title]="'HEADER.ACTIONS.GET_STARTED' | translate" />
+                        </div>
+                        <img src="../../../../../assets/images/on-off-icon.svg"
+                            alt="{{ 'DUBAI_BUSINESS.ON_OFF_ICON_ALT' | translate }}" class="d-none d-lg-inline">
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+    <article class="sm-screens-only position-relative d-lg-none text-center mt-4 mt-md-0">
+        <!-- Mobile-only images -->
+        <img src="../../../../../assets/images/section1-mob-bg1.png" alt="{{ 'MOB_BG1_ALT' | translate }}"
+            class="bg-1 position-absolute start-0 top-0">
+        <img src="../../../../../assets/images/section1-mob-img.svg" alt="{{ 'DUBAI_SMALL_IMAGE_ALT' | translate }}"
+            class="rounded-2">
+        <img src="../../../../../assets/images/section1-mob-bg2.png" alt="{{ 'MOB_BG2_ALT' | translate }}"
+            class="bg-2 position-absolute end-0 top-0">
+    </article>
+</main>

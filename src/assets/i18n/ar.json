@@ -1,0 +1,50 @@
+{
+  "LOGIN": "تسجيل الدخول",
+  "HEADER": {
+    "NAV": {
+      "HOME": "الرئيسية",
+      "DUBAI_FREEZONES": "المناطق الحرة في دبي",
+      "ABOUT_US": "من نحن",
+      "MEDIA_CENTER": "المركز الإعلامي",
+      "CONTACT_US": "اتصل بنا"
+    },
+    "ACTIONS": {
+      "GET_STARTED": "ابدأ الآن",
+      "LANGUAGE": {
+        "EN": "الإنجليزية",
+        "AR": "العربية"
+      }
+    }
+  },
+  "DUBAI_BUSINESS": {
+    "SETUP_BUSINESS_IN": "قم بإعداد عملك في",
+    "DUBAI": "دبي",
+    "FREEZONE_CHOICE": "مع المنطقة الحرة التي تختارها",
+
+    "MAIN_BG_ALT": "الخلفية الرئيسية",
+    "MAIN_LAYER_ALT": "الطبقة الرئيسية",
+    "DUBAI_IMAGE_ALT": "صورة دبي",
+    "SPECIAL_ICON_ALT": "أيقونة خاصة",
+    "DUBAI_IMAGE2_ALT": "صورة دبي 2",
+    "ON_OFF_ICON_ALT": "أيقونة التشغيل/الإيقاف",
+    "MOB_BG1_ALT": "صورة الخلفية",
+    "DUBAI_SMALL_IMAGE_ALT": "صورة دبي الصغيرة",
+    "MOB_BG2_ALT": "صورة الخلفية"
+  },
+  "WHY_DUBAI": {
+    "TITLE": "لماذا دبي؟",
+    "TOP_5_ADVANTAGES": "أفضل 5 مزايا",
+    "FREEZONES": "26 مناطق حرة",
+    "ANNUAL_BUDGET": "18.4 مليار دولار",
+    "ANNUAL_BUDGET_LABEL": "الميزانية السنوية",
+    "GDP": "3.56%",
+    "GDP_LABEL": "الناتج المحلي الإجمالي",
+    "DISCOVER": "اكتشف",
+    "ADVANTAGES": {
+      "STABLE_ECONOMY": "اقتصاد مستقر وآمن",
+      "INNOVATIVE_ADVANCEMENTS": "تطورات مبتكرة",
+      "HOME_OF_STARTUPS": "موطن الشركات الناشئة",
+      "STRATEGIC_LOCATION": "موقع استراتيجي"
+    }
+  }
+}

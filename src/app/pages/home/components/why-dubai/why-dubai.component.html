@@ -1,0 +1,57 @@
+<section class="why-dubai position-relative overflow-hidden">
+    <img src="../../../../../assets/images/section1-full-bg.svg" alt="" class="position-absolute bg-1">
+    <img src="../../../../../assets/images/main-layer.svg" alt="" class="position-absolute bg-2 z-1">
+
+    <img src="../../../../../assets/images/whyDubai-main-bg.svg" alt="" class="main-bg position-absolute">
+    <div class="container-fluid position-relative z-2">
+        <article class="main-content">
+            <header>
+                <h1 class="m-0 text-center">{{ 'WHY_DUBAI.TITLE' | translate }}</h1>
+            </header>
+            <div class="card mx-auto mb-4 mb-lg-5 p-3 p-lg-4 text-light">
+                <h2 class="text-dark fw-bolder">Top 5 Advantages</h2>
+                <ul>
+                    @for (todo of (dubaiTodos$ | async)?.todos | slice:0:5; track $index) {
+                    <li>{{todo?.todo}}</li>
+                    }
+                </ul>
+            </div>
+
+            <div class="some-details d-flex justify-content-center mb-3 mb-lg-4">
+                <div
+                    class="wraper mx-auto d-inline-flex flex-wrap justify-content-center align-items-center row-gap-3 row-gap-md-5 column-gap-lg-4 position-relative">
+                    <img src="../../../../../assets/images/whyDubai-circle-bg.svg" alt="" class="position-absolute">
+                    <div class="detail one position-relative">
+                        <p class="mt-0">{{ 'WHY_DUBAI.FREEZONES' | translate }}</p>
+                        <img src="../../../../../assets/images/card-bg.svg" alt="" class="bg position-absolute">
+                    </div>
+                    <div class="detail two">
+                        <div class="advantages d-flex flex-column">
+                            @for (item of dubaiAdvantages; track $index) {
+                            <div class="d-flex align-items-center">
+                                <img src="../../../../../assets/images/true-icon.svg" alt="">
+                                <span class="text-capitalize">{{item | translate}}</span>
+                            </div>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="detail three d-flex flex-column">
+                        <div class="annual-budge position-relative overflow-hidden flex-grow-1">
+                            <p class="m-0">{{ 'WHY_DUBAI.ANNUAL_BUDGET' | translate }}</p>
+                            <span class="text-capitalize">{{ 'WHY_DUBAI.ANNUAL_BUDGET_LABEL' | translate }}</span>
+                        </div>
+                        <div class="gdp position-relative overflow-hidden flex-grow-1">
+                            <p class="m-0">{{ 'WHY_DUBAI.GDP' | translate }}</p>
+                            <span class="text-uppercase">{{ 'WHY_DUBAI.GDP_LABEL' | translate }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <app-global-btn [title]="'WHY_DUBAI.DISCOVER' | translate"></app-global-btn>
+            </div>
+        </article>
+    </div>
+</section>

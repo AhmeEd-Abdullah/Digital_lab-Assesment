@@ -1,0 +1,195 @@
+main {
+  @media (width >= 767px) {
+    min-height: 100dvh;
+  }
+  .bg-image-1 {
+    width: 120vw;
+    inset-inline-start: calc(-12vw);
+    max-width: 150%;
+    max-height: 145dvh;
+  }
+
+  .bg-image-2 {
+    inset-inline-start: 0;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+    z-index: -1;
+  }
+
+  .bg-image-3 {
+    inset-inline-start: -100%;
+    top: 0;
+    object-fit: cover;
+    @media (width >= 576px) {
+      inset-inline-start: -55%;
+    }
+    @media (width >= 767px) {
+      inset-inline-start: -10%;
+    }
+  }
+
+  .container-fluid {
+    .main-content {
+      margin-top: 100px;
+      color: #ffffff;
+      @media (width >= 767px) {
+        margin-top: 140px;
+      }
+      @media (width > 992px) and (width <= 1200px) {
+        margin-top: 6vw;
+      }
+      @media (width > 1400px) {
+        margin-bottom: 117px;
+      }
+      .top-part {
+        .imgs-container {
+          width: fit-content;
+          .bg-container {
+            border-bottom-left-radius: 185px 55px;
+            border-bottom-right-radius: 200px 60px;
+          }
+          .gallery-img {
+            mix-blend-mode: color-burn;
+          }
+          .top-1,
+          .top-2 {
+            bottom: 260px;
+          }
+          .top-1 {
+            inset-inline-start: 75px;
+            @media (width <= 1400px) {
+              inset-inline-start: 160px;
+            }
+          }
+          .top-2 {
+            inset-inline-end: 75px;
+            @media (width <= 1400px) {
+              inset-inline-end: 160px;
+            }
+          }
+          .second-1 {
+            bottom: 171.5px;
+            inset-inline-start: -29px;
+            @media (width <= 1400px) {
+              inset-inline-start: 100px;
+            }
+          }
+          .second-2 {
+            bottom: 184px;
+            inset-inline-end: -43.5px;
+            @media (width <= 1400px) {
+              inset-inline-end: 70px;
+            }
+          }
+          .third-1 {
+            bottom: 51.3px;
+            inset-inline-start: -150px;
+            @media (width <= 1400px) {
+              inset-inline-start: -10px;
+            }
+          }
+          .third-2 {
+            bottom: 83px;
+            inset-inline-end: -195px;
+            @media (width <= 1400px) {
+              inset-inline-end: -25px;
+            }
+          }
+          .last-1 {
+            bottom: -94.2px;
+            inset-inline-start: -80px;
+            @media (width <= 1400px) {
+              inset-inline-start: -20px;
+            }
+          }
+          .last-2 {
+            bottom: -70px;
+            inset-inline-end: -119px;
+            @media (width <= 1400px) {
+              inset-inline-end: -15px;
+            }
+          }
+        }
+        header {
+          bottom: 112px;
+          @media (width > 992px) {
+            position: absolute;
+          }
+          span,
+          h1 {
+            position: relative;
+            z-index: 2;
+          }
+          span {
+            font: {
+              size: 48px;
+              weight: bold;
+            }
+            letter-spacing: -2px;
+            @media (width <= 767px) {
+              font-size: 32px;
+            }
+          }
+          h1 {
+            font: {
+              size: 180px;
+              weight: bold;
+            }
+            letter-spacing: -2px;
+            line-height: 140px;
+            @media (width <= 767px) {
+              font-size: 42px;
+              line-height: 65px;
+            }
+          }
+        }
+      }
+      .bottom-part {
+        .content {
+          width: 833px;
+          max-width: 100%;
+          .special-icon {
+            width: 65px;
+            inset-inline-end: -295px;
+            bottom: 64px;
+            @media (width >= 992px) and (width < 1400px) {
+              inset-inline-end: -10%;
+            }
+          }
+          .img-container {
+            opacity: 9%;
+          }
+          .extra-content {
+            @media (width > 992px) {
+              position: absolute;
+            }
+            h3 {
+              font: {
+                size: 48px;
+                weight: bold;
+              }
+              letter-spacing: -2px;
+              line-height: 140px;
+              @media (width <= 767px) {
+                font-size: 32px;
+                line-height: normal;
+              }
+            }
+            .btn-wraper {
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sm-screens-only {
+    .bg-1,
+    .bg-2 {
+      z-index: -1;
+      opacity: 0.3;
+    }
+  }
+}

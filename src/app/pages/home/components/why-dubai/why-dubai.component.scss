@@ -1,0 +1,236 @@
+.why-dubai {
+  padding-top: 62px;
+  padding-bottom: 39px;
+  @media (width >= 992px) {
+    padding-top: 218px;
+    padding-bottom: 231.7px;
+  }
+  .bg-1 {
+    top: 0;
+    left: 0;
+    width: 120vw;
+    inset-inline-start: calc(-12vw);
+    mix-blend-mode: soft-light;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+  }
+  .bg-2 {
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .main-bg {
+    inset-inline-start: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+  }
+  .container-fluid {
+    .main-content {
+      color: #ffffff;
+      h1 {
+        margin-bottom: 75px !important;
+        color: #2a303b;
+        font: {
+          size: 42px;
+          weight: bold;
+        }
+        letter-spacing: -2px;
+        @media (width >= 767px) {
+          margin-bottom: 82px !important;
+          color: #ffffff;
+          font-size: 100px;
+          line-height: 140px;
+        }
+      }
+      .card {
+        width: fit-content;
+        background-color: rgb(106 107 179 / 64%);
+      }
+      .some-details {
+        .wraper {
+          width: fit-content;
+          max-width: 100%;
+          column-gap: 23.5px;
+          > img {
+            width: 120px;
+            top: -47px;
+            right: -29px;
+            z-index: -1;
+            @media (width >= 767px) {
+              width: 150px;
+              top: -100px;
+              right: 0;
+            }
+            @media (width >= 992px) {
+              width: 180px;
+              top: -100px;
+              right: 80px;
+            }
+            @media (width >= 1400px) {
+              width: 280px;
+              top: -209px;
+              right: -50px;
+            }
+          }
+          .detail {
+            width: 292px;
+            height: 230px;
+            border-radius: 16px;
+            -webkit-border-radius: 16px;
+            -moz-border-radius: 16px;
+            -ms-border-radius: 16px;
+            -o-border-radius: 16px;
+            @media (width >= 767px) {
+              width: 378.5px;
+              height: 380px;
+              border-radius: 20px;
+              -webkit-border-radius: 20px;
+              -moz-border-radius: 20px;
+              -ms-border-radius: 20px;
+              -o-border-radius: 20px;
+            }
+            &.one {
+              padding-top: 13px;
+              padding-inline-start: 18px;
+              background-color: rgb(0, 0, 0, 0.12);
+              @media (width <= 767px) {
+                height: 244px;
+              }
+              @media (width >= 767px) {
+                width: 455px;
+                padding-top: 30px;
+                padding-inline-start: 40px;
+              }
+              p {
+                font: {
+                  size: 24px;
+                  weight: bold;
+                }
+                line-height: 78px;
+                @media (width >= 767px) {
+                  font-size: 34px;
+                }
+              }
+              &::before {
+                content: "";
+                position: absolute;
+                top: 46px;
+                inset-inline-start: 0;
+                width: 143px;
+                height: 85px;
+                background-image: url("../../../../../assets/images/big-cloud.svg");
+                background-size: cover;
+                @media (width >= 992px) {
+                  top: 72px;
+                  inset-inline-start: -59px;
+                  width: 282px;
+                  height: 132px;
+                }
+              }
+              &::after {
+                content: "";
+                position: absolute;
+                top: 44px;
+                inset-inline-end: 27px;
+                width: 75px;
+                height: 49px;
+                background-image: url("../../../../../assets/images/small-cloud.svg");
+                background-size: cover;
+                @media (width >= 992px) {
+                  top: 69px;
+                  inset-inline-end: 21.3px;
+                  width: 137px;
+                  height: 76px;
+                }
+              }
+              .bg {
+                inset-inline-start: 0;
+                bottom: 0;
+                width: 100%;
+                @media (width >= 992px) {
+                  inset-inline-start: -18px;
+                  bottom: -35px;
+                  width: calc(100% + 36px);
+                }
+              }
+            }
+            &.two {
+              background-image: linear-gradient(to bottom, #676ab3, #ac89b3);
+              padding-top: 20px;
+              padding-inline-start: 22px;
+              @media (width <= 576px) {
+                order: 3;
+              }
+              @media (width >= 767px) {
+                padding-top: 78px;
+                padding-inline-start: 30px;
+              }
+              .advantages {
+                row-gap: 20px;
+                > div {
+                  column-gap: 12px;
+                  img {
+                    @media (width <= 767px) {
+                      width: 16px;
+                    }
+                  }
+                  span {
+                    @media (width >= 767px) {
+                      font-size: 22px;
+                      line-height: 31px;
+                    }
+                  }
+                }
+              }
+            }
+            &.three {
+              row-gap: 21.6px;
+              @media (width <= 576px) {
+                order: 2;
+              }
+              > div {
+                padding-top: 12px;
+                padding-inline-start: 12px;
+                background-color: rgb(0, 0, 0, 0.12);
+                border-radius: 16px;
+                -webkit-border-radius: 16px;
+                -moz-border-radius: 16px;
+                -ms-border-radius: 16px;
+                -o-border-radius: 16px;
+                @media (width >= 767px) {
+                  padding-top: 36px;
+                  padding-inline-start: 46px;
+                  border-radius: 20px;
+                  -webkit-border-radius: 20px;
+                  -moz-border-radius: 20px;
+                  -ms-border-radius: 20px;
+                  -o-border-radius: 20px;
+                }
+                &::before {
+                  content: "";
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  width: 100%;
+                  height: 100%;
+                  background-color: rgb(0, 0, 0, 0.12);
+                  filter: blur(10px);
+                  z-index: -1;
+                }
+                p {
+                  font-size: 24px;
+                  line-height: 50px;
+                  @media (width >= 767px) {
+                    font-size: 44px;
+                    line-height: 70px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

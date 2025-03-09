@@ -1,0 +1,20 @@
+<section class="login-page">
+    <div class="container d-flex justify-content-center">
+        <article class="login d-flex justify-content-center align-items-center text-center">
+            <form class="w-100" (ngSubmit)="login()">
+                <div class="mb-3">
+                    <input type="text" placeholder="Username is  'username'" class="w-100 py-2 px-4 rounded-pill"
+                        [(ngModel)]="username" name="username">
+                </div>
+                <div class="mb-3">
+                    <input type="password" placeholder="Password is  'password'" class="w-100 py-2 px-4 rounded-pill"
+                        [(ngModel)]="password" name="password">
+                </div>
+                @if(errorMessage) {
+                <p class="text-danger fs-5">{{errorMessage}}</p>
+                }
+                <button class="btn">{{'LOGIN' | translate}}</button>
+            </form>
+        </article>
+    </div>
+</section>

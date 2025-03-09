@@ -1,0 +1,25 @@
+.login-page {
+  background-color: #374151;
+  .container {
+    height: 100dvh;
+    .login {
+      max-width: 400px;
+      flex: 1;
+      form {
+        button {
+          font: {
+            size: 1.5rem;
+            weight: 700;
+          }
+          letter-spacing: 2px;
+          color: #ec4899;
+          background-image: linear-gradient(to right, #ec4899, #8b5cf6);
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          -moz-background-clip: text;
+          -webkit-background-clip: text;
+        }
+      }
+    }
+  }
+}
