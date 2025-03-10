@@ -107,9 +107,9 @@
                   size: 24px;
                   weight: bold;
                 }
-                line-height: 78px;
                 @media (width >= 767px) {
                   font-size: 34px;
+                  line-height: 78px;
                 }
               }
               &::before {
